@@ -16,6 +16,7 @@ import os
 API_KEY = os.environ["ZHIPU_API_KEY"]
 BASE_URL = "https://open.bigmodel.cn/api/paas/v4/"
 
+
 # ====== 页面基础设置 ======
 st.set_page_config(page_title="CVE安全知识库问答", page_icon="🛡️", layout="wide")
 st.title("🛡️ CVE安全漏洞知识库问答系统")
