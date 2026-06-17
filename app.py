@@ -12,7 +12,8 @@ from langchain_core.output_parsers import StrOutputParser
 
 # ====== 配置 ======
 import os
-API_KEY = os.environ.get("ZHIPU_API_KEY", "5f7581e7842a485eb5dbef89d8ef807e.waiqxzpLJptwdt7I")
+
+API_KEY = os.environ["ZHIPU_API_KEY"]
 BASE_URL = "https://open.bigmodel.cn/api/paas/v4/"
 
 # ====== 页面基础设置 ======
